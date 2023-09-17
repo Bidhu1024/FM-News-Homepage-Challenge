@@ -10,7 +10,9 @@ const Navbar = () => {
       }}
     >
       <Box>
-        <Typography fontSize={"2rem"} fontFamily={"Inter"} fontWeight={"700"}>W.</Typography>
+        <Typography fontSize={"2rem"} fontFamily={"Inter"} fontWeight={"700"}>
+          W.
+        </Typography>
       </Box>
       <Box
         sx={{
@@ -20,11 +22,56 @@ const Navbar = () => {
           alignItems: "center",
         }}
       >
-        <Typography>Home</Typography>
-        <Typography>New</Typography>
-        <Typography>Popular</Typography>
-        <Typography>Trending</Typography>
-        <Typography>Categories</Typography>
+        <Typography
+          sx={{
+            "&:hover": {
+              color: "red",
+              cursor: "pointer",
+            },
+          }}
+        >
+          Home
+        </Typography>
+        <Typography
+          sx={{
+            "&:hover": {
+              color: "red",
+              cursor: "pointer",
+            },
+          }}
+        >
+          New
+        </Typography>
+        <Typography
+          sx={{
+            "&:hover": {
+              color: "red",
+              cursor: "pointer",
+            },
+          }}
+        >
+          Popular
+        </Typography>
+        <Typography
+          sx={{
+            "&:hover": {
+              color: "red",
+              cursor: "pointer",
+            },
+          }}
+        >
+          Trending
+        </Typography>
+        <Typography
+          sx={{
+            "&:hover": {
+              color: "red",
+              cursor: "pointer",
+            },
+          }}
+        >
+          Categories
+        </Typography>
       </Box>
     </Box>
   );
