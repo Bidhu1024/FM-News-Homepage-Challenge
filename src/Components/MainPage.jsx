@@ -8,7 +8,7 @@ const MainPage = () => {
     const isDesktop = useMediaQuery('(max-width:1440px)');
     return (
         <Box className="main-box" sx={{ width: "100%", height: "100%", display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <Box sx={{ width: '70%', height: '80%' }}>
+            <Box sx={{ width: '60%', height: '80%' }}>
 <Navbar/>
 <MiddleSection />
             </Box>
